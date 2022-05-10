@@ -13,7 +13,7 @@
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "${default}",
-            "compilerPath": ""
+            "compilerPath": "C:\\msys64\\mingw64\\bin\\gcc"
         },
         {
             "name": "Linus",

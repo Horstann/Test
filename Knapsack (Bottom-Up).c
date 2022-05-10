@@ -43,7 +43,7 @@ int bottom_up_dp(int n, int *s, int *v, int C)
             // if capacity is just right
             else if (j == s[i]-1) arr[i][j] = max(arr[i-1][j], v[i]);
             // if capacity is larger than item
-            else arr[i][j] = max(arr[i-1][j], arr[i-1][j-s[i]] + v[i]);a
+            else arr[i][j] = max(arr[i-1][j], arr[i-1][j-s[i]] + v[i]);
         }
     }
 
